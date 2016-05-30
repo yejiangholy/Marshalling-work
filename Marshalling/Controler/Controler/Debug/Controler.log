@@ -1,0 +1,10 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  Controler.cpp
+c:\users\ye\documents\visual studio 2015\projects\controler\controler\Controler.h(61): warning C4441: calling convention of '__stdcall ' ignored; '__clrcall ' used instead
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+     Creating library C:\Users\Ye\documents\visual studio 2015\Projects\Controler\Debug\Controler.lib and object C:\Users\Ye\documents\visual studio 2015\Projects\Controler\Debug\Controler.exp
+  Controler.vcxproj -> C:\Users\Ye\documents\visual studio 2015\Projects\Controler\Debug\Controler.dll
+  Controler.vcxproj -> C:\Users\Ye\documents\visual studio 2015\Projects\Controler\Debug\Controler.pdb (Partial PDB)

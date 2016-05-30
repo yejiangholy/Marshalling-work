@@ -1,0 +1,8 @@
+c:\users\ye\documents\visual studio 2015\Projects\View\View\bin\Debug\View.exe.config
+c:\users\ye\documents\visual studio 2015\Projects\View\View\bin\Debug\View.exe
+c:\users\ye\documents\visual studio 2015\Projects\View\View\bin\Debug\View.pdb
+c:\users\ye\documents\visual studio 2015\Projects\View\View\bin\Debug\Controler.dll
+c:\users\ye\documents\visual studio 2015\Projects\View\View\bin\Debug\Controler.pdb
+c:\users\ye\documents\visual studio 2015\Projects\View\View\obj\Debug\View.exe
+c:\users\ye\documents\visual studio 2015\Projects\View\View\obj\Debug\View.pdb
+C:\Users\Ye\Documents\Visual Studio 2015\Projects\View\View\obj\Debug\View.csprojResolveAssemblyReference.cache
