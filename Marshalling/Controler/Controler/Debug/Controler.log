@@ -1,7 +1,9 @@
 ﻿  Stdafx.cpp
   AssemblyInfo.cpp
   Controler.cpp
-c:\users\ye\documents\visual studio 2015\projects\controler\controler\Controler.h(61): warning C4441: calling convention of '__stdcall ' ignored; '__clrcall ' used instead
+c:\users\ye\documents\visual studio 2015\projects\controler\controler\Controler.h(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+c:\users\ye\documents\visual studio 2015\projects\controler\controler\Controler.h(92): warning C4441: calling convention of '__stdcall ' ignored; '__clrcall ' used instead
   Generating Code...
   .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
   AssemblyInfo.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL

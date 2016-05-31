@@ -2,17 +2,41 @@
 #include <Windows.h> 
 #include <string.h>
 #include <vector>
+#include <iomanip>
+#include <sstream>
+#include <iostream>
+#include <istream>
+#include <streambuf>
 #include <numeric>
+
 #pragma once
 
 using namespace System;
 
+struct membuf : std::streambuf
+{
+	membuf(){}
+};
+
 namespace Controler {
 
-	extern "C" __declspec(dllexport) void createGraph(const char str[])
+	extern "C" __declspec(dllexport) void createGraph(char str[] , int size)
 	{
-		const char position3 = str[3*2];
-		
+		std::istringstream inputStream;
+		std::string inputString = std::string(str);      
+		for (int i = 1; i < 2*size; i++)
+		{
+			std::string next = std::string(str + i);
+			inputString.append(next);
+		}
+
+		inputStream.str(inputString);  //put input data to inputStream 
+
+	 // then give it to OGDF 
+
+		char* buffer = new char[size]; //test weather we really put things inside this stream 
+		inputStream.read(buffer, size); 
+
 	}
 
 	extern "C" __declspec(dllexport) void sendArrayOfString(char** strings, int count)
@@ -30,10 +54,19 @@ namespace Controler {
 		Double sum = first + second + third;
 	}
 
-	extern "C" __declspec(dllexport) void getOutPut( char *output, int length)
+	extern "C" __declspec(dllexport) void getOutPut( char *pointer, int length)
 	{
-	     char str[] = "sample output";
-		 memcpy(output, str, strlen(str) + 1);
+
+		char output[] = "sample output";
+		int size = sizeof(output);
+		std::ostringstream outPutStream;
+		outPutStream.str(output);         //create a mork output with some content 
+
+
+		
+		std::string getOutPut = outPutStream.str();  // get a string from output of OGDF 
+		strcpy(pointer, getOutPut.c_str());  // copy it to pointer, which let C# side get it 
+
 	}
 
 	extern "C" __declspec(dllexport) void getArrayOfString(int *size, char *ArrayOfString)

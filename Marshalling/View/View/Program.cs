@@ -11,7 +11,7 @@ namespace View
     class Program
     {
         [DllImport("Controler.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.Cdecl)]
-        static extern void createGraph(string str); //send string to C++
+        static extern void createGraph(string str , int size); //send string to C++
 
         [DllImport("Controler.dll", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
         static extern void getOutPut(StringBuilder output, int length); //get string from C++
@@ -35,7 +35,7 @@ namespace View
 
         static void Main(string[] args)
         {
-            createGraph("01234567");
+            createGraph("01234567" , 8);
 
             string s1 = "s1"; string s2 = "s2";
             string s3 = "s3"; string s4 = "s4";
@@ -55,18 +55,10 @@ namespace View
             Console.WriteLine(doubles[3]);
             Console.WriteLine(doubles[4]);
 
-            int size = 0;
-            string[] week = new string[7];
-            getArrayOfString(ref size, week);
-
-            Console.WriteLine(week[0]);
-            Console.WriteLine(week[1]);
-            Console.WriteLine(week[2]);
-            Console.WriteLine(week[3]);
-            Console.WriteLine(week[4]);
-            Console.WriteLine(week[5]);
-            Console.WriteLine(week[6]);
-            Console.ReadLine();
+            //int size = 0;
+            //string[] week = new string[7];
+            //getArrayOfString(ref size, week);
+            //Console.WriteLine(week[0]);
 
 
             StringBuilder outPuts= new StringBuilder(100);
