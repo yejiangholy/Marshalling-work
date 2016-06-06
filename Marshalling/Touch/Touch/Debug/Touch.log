@@ -1,0 +1,27 @@
+﻿Build started 6/5/2016 3:24:48 PM.
+     1>Project "C:\Users\yjiang\Documents\Visual Studio 2013\Projects\Touch\Touch\Touch.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\OGDF\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D OGDF_DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Touch.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\OGDF\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D OGDF_DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Touch.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp Touch.cpp
+         AssemblyInfo.cpp
+         Touch.cpp
+     1>C:\OGDF\include\ogdf/basic/basic.h(472): error C3861: 'InterlockedDecrement64': identifier not found
+     1>C:\OGDF\include\ogdf/basic/basic.h(490): error C3861: 'InterlockedIncrement64': identifier not found
+     1>C:\OGDF\include\ogdf/basic/basic.h(511): error C3861: 'InterlockedExchange64': identifier not found
+     1>C:\OGDF\include\ogdf/basic/Hashing.h(261): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\OGDF\include\ogdf/basic/Hashing.h(261): error C2589: '(' : illegal token on right side of '::'
+     1>C:\OGDF\include\ogdf/basic/Hashing.h(261): error C2059: syntax error : '::'
+     1>C:\OGDF\include\ogdf/basic/geometry.h(431): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\OGDF\include\ogdf/basic/geometry.h(434): warning C4003: not enough actual parameters for macro 'max'
+     1>C:\OGDF\include\ogdf/basic/geometry.h(431): error C2589: '(' : illegal token on right side of '::'
+     1>C:\OGDF\include\ogdf/basic/geometry.h(431): error C2059: syntax error : '::'
+     1>C:\OGDF\include\ogdf/basic/geometry.h(434): error C2589: '(' : illegal token on right side of '::'
+     1>C:\OGDF\include\ogdf/basic/geometry.h(434): error C2059: syntax error : '::'
+     1>c:\users\yjiang\documents\visual studio 2013\projects\touch\touch\Touch.h(40): warning C4441: calling convention of '__stdcall ' ignored; '__clrcall ' used instead
+         Generating Code...
+     1>Done Building Project "C:\Users\yjiang\Documents\Visual Studio 2013\Projects\Touch\Touch\Touch.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.72
