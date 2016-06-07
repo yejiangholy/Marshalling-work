@@ -1,0 +1,7 @@
+c:\users\yjiang\documents\visual studio 2013\Projects\View\View\bin\Debug\View.exe.config
+C:\Users\yjiang\Documents\Visual Studio 2013\Projects\View\View\bin\Debug\View.exe
+C:\Users\yjiang\Documents\Visual Studio 2013\Projects\View\View\bin\Debug\View.pdb
+C:\Users\yjiang\Documents\Visual Studio 2013\Projects\View\View\bin\Debug\Touch.dll
+C:\Users\yjiang\Documents\Visual Studio 2013\Projects\View\View\bin\Debug\Touch.pdb
+C:\Users\yjiang\Documents\Visual Studio 2013\Projects\View\View\obj\Debug\View.exe
+C:\Users\yjiang\Documents\Visual Studio 2013\Projects\View\View\obj\Debug\View.pdb
